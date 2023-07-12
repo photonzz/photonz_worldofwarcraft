@@ -26,7 +26,7 @@
 | a          |  .  | .            | .           | .            |
 | s          |  .  | .            | .           | .            |
 | d          |  .  | .            | .           | .            |
-| f          |  .  | .            | .           | .            |
+| f          |  .  | Naturalize            | Expunge           | Expunge            |
 | g          |  .  | .            | .           | .            |
 | h          |  .  | .            | .           | .            |
 | j          |  .  | .            | .           | .            |
@@ -38,7 +38,7 @@
 | z          |  .  | .            | .           | .            |
 | x          |  .  | .            | .           | .            |
 | c          |  .  | .            | .           | .            |
-| v          |  .  | .            | .           | .            |
+| v          |  .  | Rewind            | Dragonrage           |             |
 | b          |  .  | .            | .           | .            |
 | n          |  .  | .            | .           | .            |
 | m          |  .  | .            | .           | .            |
@@ -62,12 +62,14 @@
 | shift+a    |  cc arena1  | .            | .           | .            |
 | shift+s    |  cc arena2 | .            | .           | .            |
 | shift+d    |  cc arena3  | .            | .           | .            |
+| shift+space    |  Verdant Embrace  | .            | .           | .            |
 | ctrl+a     |  cc arena1  | .            | .           | .            |
 | ctrl+s     |  cc arena2  | .            | .           | .            |
 | ctrl+d     |  cc arena3  | .            | .           | .            |
 | ctrl+x     |  Zephyr  | .            | .           | .            |
 | ctrl+c     |  .  | .            | .           | .            |
 | ctrl+v     |  .  | .            | .           | .            |
+| ctrl+space     |  .  | Deep Breath            | Deep Breath           | Breath of Eons     |
 | alt+a      |  cc arena1  | .            | .           | .            |
 | alt+s      |  cc arena2  | .            | .           | .            |
 | alt+d      |  cc arena3  | .            | .           | .            |
