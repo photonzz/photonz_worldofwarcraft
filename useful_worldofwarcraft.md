@@ -1,3 +1,5 @@
+# various
+
 preheat evoker: https://wago.io/7Kdv1YBIZ
 
 m+ healer frame assist: https://wago.io/ZUILNKG16
@@ -58,10 +60,13 @@ raid ability timeline https://wago.io/RaidAbilityTimeline
 
 /console environmentDetail 0.5
 
-spellqueue
+#spellqueue
+
 Set it to your latency (world) +100 or +150 for optimal global usage. 
 /console SpellQueueWindow 135
 /dump GetCVar("SpellQueueWindow")
+
+# gfx
 
 Draw Distance
 farclip (-1 - ∞): Sets world draw distance, objects, terrain, horizon, etc. Max is about 10000.
@@ -101,7 +106,8 @@ Entity
 entityLodDist (5 - 1000): Distance before lods are applied
 entityLodOffset (5 - 1000): Distance before lod offsets are applied
 
-felrush macro
+# felrush macro
+
 This WoW macro creates a new frame called "f" and sets an initial delay of 0.5 seconds. It then sets a script to run every update (i.e. every frame) that subtracts the elapsed time "e" from the delay "f.d". If the delay is less than 0, the script removes the onUpdate script and sets "f" to nil (effectively deleting the frame).
 If the player's speed is greater than 45 (i.e. moving at a very high speed, possibly on a mount or using a speed boost) then the script waits for 1 second before continuing to update "f". This is because in WoW, the game client does not update the player's position at the same rate as other units when the player is moving quickly.
 Overall, this macro seems to be designed to wait for a short period of time before performing some action, while accounting for the player's movement speed.
@@ -123,7 +129,7 @@ Press it again to remove the marker.
  
 /run MinimapCluster:SetScale(0.7)
 
-WorldFrame:
+# WorldFrame
 
 The height of the viewport is fixed, while the width is appropriately sized.
 
@@ -152,6 +158,6 @@ This would put the World Frame's bottom edge 50 pixels above the screen's bottom
 
 /run WorldFrame:ClearAllPoints() WorldFrame:SetPoint("TOPLEFT", 0, -200) WorldFrame:SetPoint("BOTTOMRIGHT", 0, 200)
 
-anti afk
+# antiafk
 
 /run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
