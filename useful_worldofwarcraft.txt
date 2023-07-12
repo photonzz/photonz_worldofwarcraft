@@ -4,7 +4,7 @@ m+ healer frame assist: https://wago.io/ZUILNKG16
 
 remove names from raid frames: https://wago.io/x1MSOqXoi
 
-RaidAbilityTimeline https://wago.io/RaidAbilityTimeline
+raid ability timeline https://wago.io/RaidAbilityTimeline
 
 /console ffxglow 0
 
