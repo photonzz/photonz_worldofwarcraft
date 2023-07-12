@@ -204,4 +204,5 @@ SetBindingItem("KEY", "itemname")
 
 SetBindingMacro("KEY", "macroname"|macroid)
 
+ GetCurrentBindingSet()
 Just don't forget to save changes by calling SaveBindings(GetCurrentBindingSet()).
