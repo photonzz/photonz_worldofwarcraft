@@ -47,14 +47,14 @@
 | -          |  .  | .            | .           | .            |
 | shift+x    |  .  | .            | .           | .            |
 | shift+c    |  .  | .            | .           | .            |
-| shift+v    |  /run SetBindingSpell("SHIFT-V", "Obsidian Scales")  | .            | .           | .            |
+| shift+v    |  Obsidian Scales | .            | .           | .            |
 | shift+b    |  .  | .            | .           | .            |
 | shift+r    |  .  | .            | .           | .            |
 | shift+g    |  .  | .            | .           | .            |
 | shift+h    |  .  | .            | .           | .            |
 | shift+n    |  .  | .            | .           | .            |
 | shift+y    |  .  | .            | .           | .            |
-| shift+1    | /run SetBindingSpell("SHIFT-1", "Fire Breath")  | .            | .           | .            |
+| shift+1    |  Fire Breath  | .            | .           | .            |
 | shift+2    |  .  | .            | .           | .            |
 | shift+3    |  .  | .            | .           | .            |
 | shift+4    |  .  | .            | .           | .            |
@@ -76,3 +76,8 @@
 | f3         |  .  | .            | .           | .            |
 | f4         |  .  | .            | .           | .            |
 | f5         |  .  | .            | .           | .            |
+
+
+Test:
+
+/run SetBindingSpell("SHIFT-1", "Fire Breath")
