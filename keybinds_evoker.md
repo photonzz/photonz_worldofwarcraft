@@ -40,13 +40,13 @@
 | c          |  Quell  | .            | .           | .            |
 | v          |  .  | Rewind            | Dragonrage           |      Ebon Might       |
 | b          |  .  | .            | .           | .            |
-| n          |  .  | .            | .           | .            |
+| n          |  Blessing of the Bronze  | .            | .           | .            |
 | m          |  .  | .            | .           | .            |
 | ,          |  .  | .            | .           | .            |
 | .          |  .  | .            | .           | .            |
 | -          |  .  | .            | .           | .            |
 | shift+x    |  Dream Projection  | .            | .           | .            |
-| shift+c    |  .  | .            | .           | .            |
+| shift+c    |  Tail Swipe  | .            | .           | .            |
 | shift+v    |  Obsidian Scales | .            | .           | .            |
 | shift+b    |  .  | .            | .           | .            |
 | shift+r    |  .  | Time Dilation   | .           | .            |
@@ -57,13 +57,13 @@
 | shift+1    |  Fire Breath  | .            | .           | .            |
 | shift+2    |  .  | Disintegrate            | .           | .            |
 | shift+3    |  .  | Living Flame (targetoftarget)  | .           | .            |
-| shift+4    |  .  | .            | .           | .            |
+| shift+4    |  Wing Buffet  | .            | .           | .            |
 | shift+5    |  .  | .            | .           | .            |
 | shift+a    |  cc arena1  | .            | .           | .            |
 | shift+s    |  cc arena2 | .            | .           | .            |
 | shift+d    |  cc arena3  | .            | .           | .            |
 | shift+space    |  Verdant Embrace  | .            | .           | .            |
-| shift+c    |  Tail Swipe  | .            | .           | .            |
+| shift+tilde    |  visage  | .            | .           | .            |
 | ctrl+a     |  cc arena1  | .            | .           | .            |
 | ctrl+s     |  cc arena2  | .            | .           | .            |
 | ctrl+d     |  cc arena3  | .            | .           | .            |
