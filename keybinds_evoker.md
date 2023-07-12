@@ -47,7 +47,7 @@
 | -          |  .  | .            | .           | .            |
 | shift+x    |  .  | .            | .           | .            |
 | shift+c    |  .  | .            | .           | .            |
-| shift+v    |  /run SetBindingSpell("SHIFT-1", "Obsidian Scales")  | .            | .           | .            |
+| shift+v    |  /run SetBindingSpell("SHIFT-V", "Obsidian Scales")  | .            | .           | .            |
 | shift+b    |  .  | .            | .           | .            |
 | shift+r    |  .  | .            | .           | .            |
 | shift+g    |  .  | .            | .           | .            |
