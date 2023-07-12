@@ -68,6 +68,7 @@
 | ctrl+s     |  cc arena2  | .            | .           | .            |
 | ctrl+d     |  cc arena3  | .            | .           | .            |
 | ctrl+x     |  Zephyr  | .            | .           | .            |
+| ctrl+r     |  Opressing Roar  | .            | .           | .            |
 | ctrl+c     |  .  | .            | .           | .            |
 | ctrl+v     |  .  | .            | .           | .            |
 | ctrl+space     |  .  | Deep Breath            | Deep Breath           | Breath of Eons     |
