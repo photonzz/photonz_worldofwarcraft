@@ -63,47 +63,70 @@ raid ability timeline https://wago.io/RaidAbilityTimeline
 #spellqueue
 
 Set it to your latency (world) +100 or +150 for optimal global usage. 
+
 /console SpellQueueWindow 135
+
 /dump GetCVar("SpellQueueWindow")
 
 # gfx
 
-Draw Distance
 farclip (-1 - ∞): Sets world draw distance, objects, terrain, horizon, etc. Max is about 10000.
+
 horizonStart (-1 - ∞): Master fog scale, set fog horizon distance also has some control over terrain lod for terrain beyond the horizon. Max is about 10000.
 
 Ground Clutter
+
 groundEffectDist (40 - 500): Controls how far flora is rendered, in 2.x there was no limit.
+
 groundEffectFade (View Range): This value works best if it matches groundEffectDist, if you don't want any fading for Flora just increase it so its groundEffectDist + 10
+
 groundEffectDensity (16 - 256): Controls flora density.
 
 Terrain
+
 terrainLodDist (1 - ∞): Distance at which to render the lowest lod for terrain. Will impact performance!
+
 lodTerrainDiv (256 - 1024): Sets how lod chunks are handled. Smaller chunks are better for more lod levels, larger for less. Must be in a power of 2.
 
 Level of Detail - Objects
+
 lodObjectMinSize (0 - 1000): Min size of an object before its culled
+
 lodObjectCullSize (1 - 100): Objects smaller than the value will be culled, where 1 is all objects visible and 100 is most are not.
+
 lodObjectCullDist (1.0 - 200.0): Distance before objects are culled
+
 lodObjectFadeScale (50 - 300): Controls distance in which objects are faded between lod sets, higher is more detail
 doodadLodDist (10 - 1000): Depricated? Not sure if this works anymore.
 
 Models
+
 M2UseLod (0, 1): Toggle LOD usage for all models
+
 M2UseThreads (0 - 3): Sets number of threads for models during rendering
+
 M2UseInstancing (0, 1): Use hardware instancting, aka makes things go faster
 
 Component Textures
+
 componentThread (0 - ∞): Sets number of threads to use when rendering entity textures
+
 componentCompress (0, 1): Use compression, saves video memory.
+
 componentTextureLevel (0, 12): Source texture LOD level to use when rendering entity texture
+
 componentTexLoadLimit (0 - ∞): Number of textures to load simultaneously
+
 componentTexCacheSize (0 - ∞): Texture cache size
+
 componentSpecular (0, 1): Use specular maps
+
 componentEmissive (0, 1): Use emissive maps
 
 Entity
+
 entityLodDist (5 - 1000): Distance before lods are applied
+
 entityLodOffset (5 - 1000): Distance before lod offsets are applied
 
 # felrush macro
@@ -114,6 +137,7 @@ Overall, this macro seems to be designed to wait for a short period of time befo
 
 #showtooltip
 /run f=CreateFrame("frame");f.d=0.5;f:SetScript("OnUpdate",function(s,e) f.d=f.d-e if f.d<0 then f:SetScript("OnUpdate",nil) f=nil elseif select(1,GetUnitSpeed("player"))>45 then local d=time()+1 while time()<d do end  end end)
+
 /use Fel Rush
 
 /run C_NamePlate.SetNamePlateFriendlySize(60, 30)
@@ -123,7 +147,9 @@ nameplateOccludedAlphaMul
 nameplateMinAlpha
 
 /cwm all
+
 /wm 2
+
 Applies a World Marker on the ground, useful to mark stuff like monk ports in arena so you remember where they are.
 Press it again to remove the marker.
  
@@ -134,7 +160,9 @@ Press it again to remove the marker.
 The height of the viewport is fixed, while the width is appropriately sized.
 
 You can manually modify the WorldFrame's (the frame that handles 3D rendering) in-game.
+
 First, run this script once:
+
 Code:
 
 /run WorldFrame:SetUserPlaced(true)
