@@ -45,12 +45,12 @@
 | ,          |  .  | .            | .           | .            |
 | .          |  .  | .            | .           | .            |
 | -          |  .  | .            | .           | .            |
-| shift+x    |  .  | .            | .           | .            |
+| shift+x    |  Dream Projection  | .            | .           | .            |
 | shift+c    |  .  | .            | .           | .            |
 | shift+v    |  Obsidian Scales | .            | .           | .            |
 | shift+b    |  .  | .            | .           | .            |
-| shift+r    |  .  | .            | .           | .            |
-| shift+g    |  .  | .            | .           | .            |
+| shift+r    |  .  | Time Dilation   | .           | .            |
+| shift+g    |  Renewing Blaze  | .            | .           | .            |
 | shift+h    |  .  | .            | .           | .            |
 | shift+n    |  .  | .            | .           | .            |
 | shift+y    |  .  | .            | .           | .            |
@@ -59,23 +59,23 @@
 | shift+3    |  .  | .            | .           | .            |
 | shift+4    |  .  | .            | .           | .            |
 | shift+5    |  .  | .            | .           | .            |
-| shift+a    |  .  | .            | .           | .            |
-| shift+s    |  .  | .            | .           | .            |
-| shift+d    |  .  | .            | .           | .            |
-| ctrl+a     |  .  | .            | .           | .            |
-| ctrl+s     |  .  | .            | .           | .            |
-| ctrl+d     |  .  | .            | .           | .            |
-| ctrl+x     |  .  | .            | .           | .            |
+| shift+a    |  cc arena1  | .            | .           | .            |
+| shift+s    |  cc arena2 | .            | .           | .            |
+| shift+d    |  cc arena3  | .            | .           | .            |
+| ctrl+a     |  cc arena1  | .            | .           | .            |
+| ctrl+s     |  cc arena2  | .            | .           | .            |
+| ctrl+d     |  cc arena3  | .            | .           | .            |
+| ctrl+x     |  Zephyr  | .            | .           | .            |
 | ctrl+c     |  .  | .            | .           | .            |
 | ctrl+v     |  .  | .            | .           | .            |
-| alt+a      |  .  | .            | .           | .            |
-| alt+s      |  .  | .            | .           | .            |
-| alt+d      |  .  | .            | .           | .            |
+| alt+a      |  cc arena1  | .            | .           | .            |
+| alt+s      |  cc arena2  | .            | .           | .            |
+| alt+d      |  cc arena3  | .            | .           | .            |
 | f1         |  .  | .            | .           | .            |
 | f2         |  .  | .            | .           | .            |
 | f3         |  .  | .            | .           | .            |
 | f4         |  .  | .            | .           | .            |
-| f5         |  .  | .            | .           | .            |
+| f5         |  Fury of the Aspects  | .            | .           | .            |
 
 
 Test:
