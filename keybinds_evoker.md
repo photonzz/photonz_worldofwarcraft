@@ -15,10 +15,10 @@
 | q          |  strafeleft  | .            | .           | .            |
 | w          |  forward  | .            | .           | .            |
 | e          |  straferight  | .            | .           | .            |
-| r          |  rescue  | .            | .           | .            |
+| r          |  Rescue  | .            | .           | .            |
 | t          |  trinket  | .            | .           | .            |
 | y          |  drink  | .            | .           | .            |
-| u          |  healthstone  | .            | .           | .            |
+| u          |  Healthstone  | .            | .           | .            |
 | i          |  .  | .            | .           | .            |
 | o          |  social  | .            | .           | .            |
 | p          |  spellbook  | .            | .           | .            |
