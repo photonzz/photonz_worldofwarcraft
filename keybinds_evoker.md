@@ -45,7 +45,16 @@
 | ,          |  .  | .            | .           | .            |
 | .          |  .  | .            | .           | .            |
 | -          |  .  | .            | .           | .            |
-| shift+1    |  SetBindingSpell("SHIFT-1", "Fire Breath")  | .            | .           | .            |
+| shift+x    |  .  | .            | .           | .            |
+| shift+c    |  .  | .            | .           | .            |
+| shift+v    |  .  | .            | .           | .            |
+| shift+b    |  .  | .            | .           | .            |
+| shift+r    |  .  | .            | .           | .            |
+| shift+g    |  .  | .            | .           | .            |
+| shift+h    |  .  | .            | .           | .            |
+| shift+n    |  .  | .            | .           | .            |
+| shift+y    |  .  | .            | .           | .            |
+| shift+1    | /run SetBindingSpell("SHIFT-1", "Fire Breath")  | .            | .           | .            |
 | shift+2    |  .  | .            | .           | .            |
 | shift+3    |  .  | .            | .           | .            |
 | shift+4    |  .  | .            | .           | .            |
@@ -56,6 +65,9 @@
 | ctrl+a     |  .  | .            | .           | .            |
 | ctrl+s     |  .  | .            | .           | .            |
 | ctrl+d     |  .  | .            | .           | .            |
+| ctrl+x     |  .  | .            | .           | .            |
+| ctrl+c     |  .  | .            | .           | .            |
+| ctrl+v     |  .  | .            | .           | .            |
 | alt+a      |  .  | .            | .           | .            |
 | alt+s      |  .  | .            | .           | .            |
 | alt+d      |  .  | .            | .           | .            |
