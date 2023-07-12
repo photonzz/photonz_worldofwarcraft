@@ -5,8 +5,8 @@
 | 3          |  Living Flame  | .            | .           | .            |
 | 4          |  .  | Spiritbloom            | Shattering Star           | Blistering Scales             |
 | 5          |  .  | Dream Breath            | Eternity Surge           | Upheaval            |
-| 6          |  Emerald Blossom | .            | .           | .            |
-| 7          |  Landslide   | .            | .           | .            |
+| 6          |  ELandslide | .            | .           | .            |
+| 7          |  Emerald Blossom   | .            | .           | .            |
 | 8          |  Sleep Walk | .            | .           | .            |
 | 9          |  .  | .            | .           | .            |
 | 0          |  Return  | .            | .           | .            |
