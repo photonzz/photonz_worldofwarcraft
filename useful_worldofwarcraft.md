@@ -167,9 +167,13 @@ This would put the World Frame's bottom edge 50 pixels above the screen's bottom
 You can use these functions (and many others) in any addons or macros.
 
 GetBindingKey("command")
+
 SetBinding("KEY", "command")
+
 SetBindingSpell("KEY", "Spell Name")
+
 SetBindingItem("KEY", "itemname")
+
 SetBindingMacro("KEY", "macroname"|macroid)
 
 Just don't forget to save changes by calling SaveBindings(GetCurrentBindingSet()).
