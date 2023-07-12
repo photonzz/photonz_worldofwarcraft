@@ -41,9 +41,9 @@
 | v          |  .  | Rewind            | Dragonrage           |      Ebon Might       |
 | b          |  .  | .            | .           | .            |
 | n          |  Blessing of the Bronze  | .            | .           | .            |
-| m          |  .  | .            | .           | .            |
-| ,          |  .  | .            | .           | .            |
-| .          |  .  | .            | .           | .            |
+| m          |  map  | .            | .           | .            |
+| ,          |  enemynameplates  | .            | .           | .            |
+| .          |  friendlynameplates  | .            | .           | .            |
 | -          |  .  | .            | .           | .            |
 | shift+x    |  Dream Projection  | .            | .           | .            |
 | shift+c    |  Tail Swipe  | .            | .           | .            |
@@ -58,7 +58,7 @@
 | shift+2    |  .  | Disintegrate            | .           | .            |
 | shift+3    |  .  | Living Flame (targetoftarget)  | .           | .            |
 | shift+4    |  Wing Buffet  | .            | .           | .            |
-| shift+5    |  .  | .            | .           | .            |
+| shift+5    |  Azure Strike  | .            | .           | .            |
 | shift+a    |  cc arena1  | .            | .           | .            |
 | shift+s    |  cc arena2 | .            | .           | .            |
 | shift+d    |  cc arena3  | .            | .           | .            |
@@ -75,7 +75,7 @@
 | alt+s      |  cc arena2  | .            | .           | .            |
 | alt+d      |  cc arena3  | .            | .           | .            |
 | f1         |  .  | .            | .           | .            |
-| f2         |  .  | .            | .           | .            |
+| f2         | .  | .            | .           | .            |
 | f3         |  .  | .            | .           | .            |
 | f4         |  .  | .            | .           | .            |
 | f5         |  Fury of the Aspects  | .            | .           | .            |
