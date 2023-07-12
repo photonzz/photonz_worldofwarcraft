@@ -161,3 +161,15 @@ This would put the World Frame's bottom edge 50 pixels above the screen's bottom
 # antiafk
 
 /run local f=CreateFrame("Frame")f:RegisterEvent("PLAYER_CAMPING")f:SetScript("OnEvent", function() local p=StaticPopup_Visible("CAMP")_G[p.."Button1"]:Click()end)
+
+# keybinds
+
+You can use these functions (and many others) in any addons or macros.
+
+GetBindingKey("command")
+SetBinding("KEY", "command")
+SetBindingSpell("KEY", "Spell Name")
+SetBindingItem("KEY", "itemname")
+SetBindingMacro("KEY", "macroname"|macroid)
+
+Just don't forget to save changes by calling SaveBindings(GetCurrentBindingSet()).
