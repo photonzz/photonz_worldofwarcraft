@@ -5,9 +5,9 @@
 | 3          |  Living Flame  | .            | .           | .            |
 | 4          |  .  | Spiritbloom            | Shattering Star           | Blistering Scales             |
 | 5          |  .  | Dream Breath            | Eternity Surge           | Upheaval            |
-| 6          |  Landslide  | .            | .           | .            |
-| 7          |  Sleep Walk  | .            | .           | .            |
-| 8          |  Emerald Blossom  | .            | .           | .            |
+| 6          |  Emerald Blossom | .            | .           | .            |
+| 7          |  Landslide   | .            | .           | .            |
+| 8          |  Sleep Walk | .            | .           | .            |
 | 9          |  .  | .            | .           | .            |
 | 0          |  Return  | .            | .           | .            |
 | +          |  .  | .            | .           | .            |
@@ -28,7 +28,7 @@
 | d          |  target arena3  | .            | .           | .            |
 | f          |  .  | Naturalize            | Expunge           | Expunge            |
 | g          |  .  | Cauterizing Flame    | .           | .            |
-| h          |  .  | Emerald Communion            | .           | .            |
+| h          |  .  | Emerald Communion            | .           | Time Skip            |
 | j          |  .  | .            | .           | .            |
 | k          |  .  | .            | .           | .            |
 | l          |  .  | .            | .           | .            |
@@ -39,7 +39,7 @@
 | x          |  Hover  | .            | .           | .            |
 | c          |  Quell  | .            | .           | .            |
 | v          |  .  | Rewind            | Dragonrage           |      Ebon Might       |
-| b          |  .  | .            | .           | .            |
+| b          |  .  | Stasis            | .           | .            | 
 | n          |  Blessing of the Bronze  | .            | .           | .            |
 | m          |  map  | .            | .           | .            |
 | ,          |  enemynameplates  | .            | .           | .            |
@@ -52,7 +52,7 @@
 | shift+r    |  .  | Time Dilation   | .           | .            |
 | shift+g    |  Renewing Blaze  | .            | .           | .            |
 | shift+h    |  .  | .            | .           | .            |
-| shift+n    |  .  | .            | .           | .            |
+| shift+n    |  .  | .            | .           | Source of Magic     |
 | shift+y    |  .  | .            | .           | .            |
 | shift+1    |  Fire Breath  | .            | .           | .            |
 | shift+2    |  .  | Disintegrate (targetoftarget)    | .           | .            |
