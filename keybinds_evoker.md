@@ -55,7 +55,7 @@
 | shift+n    |  .  | .            | .           | .            |
 | shift+y    |  .  | .            | .           | .            |
 | shift+1    |  Fire Breath  | .            | .           | .            |
-| shift+2    |  .  | Disintegrate            | .           | .            |
+| shift+2    |  .  | Disintegrate (targetoftarget)    | .           | .            |
 | shift+3    |  .  | Living Flame (targetoftarget)  | .           | .            |
 | shift+4    |  Wing Buffet  | .            | .           | .            |
 | shift+5    |  Azure Strike  | .            | .           | .            |
