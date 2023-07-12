@@ -1,6 +1,6 @@
 | keybind    | all | preservation | devastation | augmentation |
 |------------|-----|--------------|-------------|--------------|
-| 1          |  .  | Echo           | .           | .            |
+| 1          |  .  | Echo           | Pyre           | Prescience            |
 | 2          |  .  | Reversion            | Disintegrate           | Eruption            |
 | 3          |  Living Flame  | .            | .           | .            |
 | 4          |  .  | Spiritbloom            | Shattering Star           | .            |
