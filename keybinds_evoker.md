@@ -1,13 +1,13 @@
 | keybind    | all | preservation | devastation | augmentation |
 |------------|-----|--------------|-------------|--------------|
-| 1          |  .  | .            | .           | .            |
-| 2          |  .  | .            | .           | .            |
-| 3          |  .  | .            | .           | .            |
-| 4          |  .  | .            | .           | .            |
-| 5          |  .  | .            | .           | .            |
-| 6          |  .  | .            | .           | .            |
-| 7          |  .  | .            | .           | .            |
-| 8          |  .  | .            | .           | .            |
+| 1          |  .  | Echo           | .           | .            |
+| 2          |  .  | Reversion            | Disintegrate           | Eruption            |
+| 3          |  Living Flame  | .            | .           | .            |
+| 4          |  .  | Spiritbloom            | Shattering Star           | .            |
+| 5          |  .  | Dream Breath            | Eternity Surge           | Upheaval            |
+| 6          |  Landslide  | .            | .           | .            |
+| 7          |  Sleep Walk  | .            | .           | .            |
+| 8          |  Emerald Blossom  | .            | .           | .            |
 | 9          |  .  | .            | .           | .            |
 | 0          |  .  | .            | .           | .            |
 | +          |  .  | .            | .           | .            |
