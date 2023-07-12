@@ -45,7 +45,7 @@
 | ,          |  .  | .            | .           | .            |
 | .          |  .  | .            | .           | .            |
 | -          |  .  | .            | .           | .            |
-| shift+1    |  .  | .            | .           | .            |
+| shift+1    |  SetBindingSpell("SHIFT-1", "Fire Breath")  | .            | .           | .            |
 | shift+2    |  .  | .            | .           | .            |
 | shift+3    |  .  | .            | .           | .            |
 | shift+4    |  .  | .            | .           | .            |
