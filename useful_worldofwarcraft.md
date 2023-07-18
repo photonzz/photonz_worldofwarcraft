@@ -210,4 +210,6 @@ Just don't forget to save changes by calling SaveBindings(GetCurrentBindingSet()
 
 # addon dev
 
+/dump UnitName("player")
+
 https://developer.school/tutorials/developing-world-of-warcraft-addons-hello-world-part-one
