@@ -210,6 +210,8 @@ Just don't forget to save changes by calling SaveBindings(GetCurrentBindingSet()
 
 # addon dev
 
+/script print(GetCVar("ShowClassColorInFriendlyNameplate"))
+
 /dump UnitName("player")
 
 -- display the current value
