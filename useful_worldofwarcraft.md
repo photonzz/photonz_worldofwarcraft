@@ -213,12 +213,15 @@ Just don't forget to save changes by calling SaveBindings(GetCurrentBindingSet()
 /dump UnitName("player")
 
 -- display the current value
+
 /script print(GetCVar("nameplateHorizontalScale"))
 
 -- change the value to 2
+
 /script SetCVar("nameplateHorizontalScale", 2)
 
 -- display the current value (which should now equal 2)
+
 /script print(GetCVar("nameplateHorizontalScale"))
 
 https://developer.school/tutorials/developing-world-of-warcraft-addons-hello-world-part-one
