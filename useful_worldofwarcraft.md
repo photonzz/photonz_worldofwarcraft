@@ -144,6 +144,8 @@ Overall, this macro seems to be designed to wait for a short period of time befo
 
 nameplateOccludedAlphaMul
 
+/run SetCVar("nameplateOccludedAlphaMult", 1)
+
 nameplateMinAlpha
 
 /cwm all
