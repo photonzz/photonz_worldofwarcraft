@@ -146,6 +146,8 @@ nameplateOccludedAlphaMul
 
 /run SetCVar("nameplateOccludedAlphaMult", 1)
 
+/dump nameplateOccludedAlphaMult
+
 nameplateMinAlpha
 
 /cwm all
