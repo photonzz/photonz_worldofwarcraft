@@ -11,11 +11,13 @@ raid ability timeline https://wago.io/RaidAbilityTimeline
 nameplate numbers:
 
 For enemies with red numbers:
+```
 /run local U=UnitIsUnit hooksecurefunc("CompactUnitFrame_UpdateName",function(F)if IsActiveBattlefieldArena()and F.unit:find("nameplate")then for i=1,5 do if U(F.unit,"arena"..i)then F.name:SetText(i)F.name:SetTextColor(1,0,0)break end end end end)
 
 and for allies with green numbers:
 
 /run local U=UnitIsUnit hooksecurefunc("CompactUnitFrame_UpdateName",function(F)if IsActiveBattlefieldArena()and F.unit:find("nameplate")then for i=1,5 do if U(F.unit,"party"..i)then F.name:SetText(i)F.name:SetTextColor(0,1,0)break end end end end)
+```
 
 /console ffxglow 0
 
