@@ -8,6 +8,8 @@ remove names from raid frames: https://wago.io/x1MSOqXoi
 
 raid ability timeline https://wago.io/RaidAbilityTimeline
 
+https://wowpedia.fandom.com/wiki/World_of_Warcraft_API
+
 nameplate numbers:
 
 For enemies with red numbers:
@@ -152,6 +154,8 @@ Overall, this macro seems to be designed to wait for a short period of time befo
 /use Fel Rush
 
 /run C_NamePlate.SetNamePlateFriendlySize(60, 30)
+
+C_NamePlate.SetNamePlateFriendlySize(width, height)
 
 nameplateOccludedAlphaMul
 
