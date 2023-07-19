@@ -157,8 +157,6 @@ Overall, this macro seems to be designed to wait for a short period of time befo
 
 C_NamePlate.SetNamePlateFriendlySize(width, height)
 
-nameplateOccludedAlphaMul
-
 /run SetCVar("nameplateOccludedAlphaMult", 1)
 
 /dump nameplateOccludedAlphaMult
