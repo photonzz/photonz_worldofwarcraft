@@ -12,6 +12,12 @@ https://wowpedia.fandom.com/wiki/World_of_Warcraft_API
 
 /run SetConsoleKey("Q")
 
+Random Toy Macro
+
+/run local f,t=RnT or CreateFrame("Button","RnT",nil,"SecureActionButtonTemplate") f:SetAttribute("type","item") t=GetItemInfo(C_ToyBox.GetToyFromIndex(random(10))) f:SetAttribute("item",t) print("Casting toy:",t) /click RnT
+
+change random(number) to the number of favourite toys
+
 nameplate numbers:
 
 For enemies with red numbers:
