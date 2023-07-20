@@ -10,6 +10,8 @@ raid ability timeline https://wago.io/RaidAbilityTimeline
 
 https://wowpedia.fandom.com/wiki/World_of_Warcraft_API
 
+/run SetConsoleKey("Q")
+
 nameplate numbers:
 
 For enemies with red numbers:
