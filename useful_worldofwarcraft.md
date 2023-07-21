@@ -1,18 +1,9 @@
-# various
-
-preheat evoker: https://wago.io/7Kdv1YBIZ
-
-m+ healer frame assist: https://wago.io/ZUILNKG16
-
-remove names from raid frames: https://wago.io/x1MSOqXoi
-
-raid ability timeline https://wago.io/RaidAbilityTimeline
 
 https://wowpedia.fandom.com/wiki/World_of_Warcraft_API
 
 /run SetConsoleKey("Q")
 
-Random Toy Macro
+Random Toy Macro (needs fix)
 
 /run local f,t=RnT or CreateFrame("Button","RnT",nil,"SecureActionButtonTemplate") f:SetAttribute("type","item") t=GetItemInfo(C_ToyBox.GetToyFromIndex(random(10))) f:SetAttribute("item",t) print("Casting toy:",t) /click RnT
 
