@@ -3,74 +3,12 @@ https://wowpedia.fandom.com/wiki/World_of_Warcraft_API
 
 /run SetConsoleKey("Q")
 
-Random Toy Macro (needs fix)
-
-/run local f,t=RnT or CreateFrame("Button","RnT",nil,"SecureActionButtonTemplate") f:SetAttribute("type","item") t=GetItemInfo(C_ToyBox.GetToyFromIndex(random(10))) f:SetAttribute("item",t) print("Casting toy:",t) /click RnT
-
-change random(number) to the number of favourite toys
-
 nameplate numbers:
 
 For enemies with red numbers:
 ```
-/run local U=UnitIsUnit hooksecurefunc("CompactUnitFrame_UpdateName",function(F)if IsActiveBattlefieldArena()and F.unit:find("nameplate")then for i=1,5 do if U(F.unit,"arena"..i)then F.name:SetText(i)F.name:SetTextColor(1,0,0)break end end end end)
-
-and for allies with green numbers:
-
-/run local U=UnitIsUnit hooksecurefunc("CompactUnitFrame_UpdateName",function(F)if IsActiveBattlefieldArena()and F.unit:find("nameplate")then for i=1,5 do if U(F.unit,"party"..i)then F.name:SetText(i)F.name:SetTextColor(0,1,0)break end end end end)
+/run local U=UnitIsUnit hooksecurefunc("CompactUnitFrame_UpdateName",function(F)if IsActiveBattlefieldArena()and F.unit:find("nameplate")then for i=1,5 do if U(F.unit,"arena"..i)then F.name:SetText(i)F.name:SetTextColor(1,0,0,1)break end end end end)
 ```
-
-/console ffxglow 0
-
-/console floatingCombatTextCombatDamage 1
-
-/console GxAllowCachelessShaderMode 0
-
-/console ShowClassColorInFriendlyNameplate 0 
-
-/console set renderscale 0.999
-
-/console m2Faster 1
-
-/console ffx 0
-
-/console hwPCF 1
-
-/console shadowlod 0
-
-/console timingmethod 1
-
-/console showshadow 0
-
-/console showfootprints 0
-
-/console showfootprintparticles 0
-
-/console spelleffectlevel 2
-
-/console particledensity 1
-
-/console overridefarclip 0
-
-/console farclip 177
-
-/console horizonfarclip 1305
-
-/console detailDoodadAlpha 0
-
-/console groundeffectdensity 16
-
-/console groundeffectdist 1
-
-/console smallcull 1
-
-/console skycloudlod 1
-
-/console characterAmbient 1
-
-/console extshadowquality 0
-
-/console environmentDetail 0.5
 
 #spellqueue
 
@@ -79,67 +17,6 @@ Set it to your latency (world) +100 or +150 for optimal global usage.
 /console SpellQueueWindow 135
 
 /dump GetCVar("SpellQueueWindow")
-
-# gfx
-
-farclip (-1 - ∞): Sets world draw distance, objects, terrain, horizon, etc. Max is about 10000.
-
-horizonStart (-1 - ∞): Master fog scale, set fog horizon distance also has some control over terrain lod for terrain beyond the horizon. Max is about 10000.
-
-Ground Clutter
-
-groundEffectDist (40 - 500): Controls how far flora is rendered, in 2.x there was no limit.
-
-groundEffectFade (View Range): This value works best if it matches groundEffectDist, if you don't want any fading for Flora just increase it so its groundEffectDist + 10
-
-groundEffectDensity (16 - 256): Controls flora density.
-
-Terrain
-
-terrainLodDist (1 - ∞): Distance at which to render the lowest lod for terrain. Will impact performance!
-
-lodTerrainDiv (256 - 1024): Sets how lod chunks are handled. Smaller chunks are better for more lod levels, larger for less. Must be in a power of 2.
-
-Level of Detail - Objects
-
-lodObjectMinSize (0 - 1000): Min size of an object before its culled
-
-lodObjectCullSize (1 - 100): Objects smaller than the value will be culled, where 1 is all objects visible and 100 is most are not.
-
-lodObjectCullDist (1.0 - 200.0): Distance before objects are culled
-
-lodObjectFadeScale (50 - 300): Controls distance in which objects are faded between lod sets, higher is more detail
-doodadLodDist (10 - 1000): Depricated? Not sure if this works anymore.
-
-Models
-
-M2UseLod (0, 1): Toggle LOD usage for all models
-
-M2UseThreads (0 - 3): Sets number of threads for models during rendering
-
-M2UseInstancing (0, 1): Use hardware instancting, aka makes things go faster
-
-Component Textures
-
-componentThread (0 - ∞): Sets number of threads to use when rendering entity textures
-
-componentCompress (0, 1): Use compression, saves video memory.
-
-componentTextureLevel (0, 12): Source texture LOD level to use when rendering entity texture
-
-componentTexLoadLimit (0 - ∞): Number of textures to load simultaneously
-
-componentTexCacheSize (0 - ∞): Texture cache size
-
-componentSpecular (0, 1): Use specular maps
-
-componentEmissive (0, 1): Use emissive maps
-
-Entity
-
-entityLodDist (5 - 1000): Distance before lods are applied
-
-entityLodOffset (5 - 1000): Distance before lod offsets are applied
 
 # felrush macro
 
@@ -152,15 +29,7 @@ Overall, this macro seems to be designed to wait for a short period of time befo
 
 /use Fel Rush
 
-/run C_NamePlate.SetNamePlateFriendlySize(60, 30)
-
-C_NamePlate.SetNamePlateFriendlySize(width, height)
-
-/run SetCVar("nameplateOccludedAlphaMult", 1)
-
-/dump nameplateOccludedAlphaMult
-
-nameplateMinAlpha
+---
 
 /cwm all
 
