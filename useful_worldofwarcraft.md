@@ -1,6 +1,8 @@
 
 https://wowpedia.fandom.com/wiki/World_of_Warcraft_API
 
+/console cameraDistanceMaxZoomFactor 4
+
 /run SetConsoleKey("Q")
 
 nameplate numbers:
