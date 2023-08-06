@@ -1,6 +1,10 @@
 
 https://wowpedia.fandom.com/wiki/World_of_Warcraft_API
 
+MinimapCluster:Show();
+
+MinimapCluster:Hide();
+
 /console cameraDistanceMaxZoomFactor 4
 
 /run SetConsoleKey("Q")
