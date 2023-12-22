@@ -1,3 +1,12 @@
+##
+A working 9.1.5 macro to leave an instance if you are alone.
+
+/inv 1
+
+/pr 1
+
+/script C_PartyInfo.LeaveParty()
+##
 
 https://wowpedia.fandom.com/wiki/World_of_Warcraft_API
 
