@@ -14,6 +14,8 @@ https://www.wowhead.com/item=89770/tuft-of-yak-fur
 
 https://www.wowhead.com/item=89697/bag-of-kafa-beans
 
+https://www.wowhead.com/item=182732/the-necronom-i-nom
+
 ##
 A working 9.1.5 macro to leave an instance if you are alone.
 
