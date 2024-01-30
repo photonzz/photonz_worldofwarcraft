@@ -6,6 +6,10 @@ https://www.wowhead.com/item=152550/sea-mist-potion
 
 https://www.wowhead.com/item=132516/gunshoes
 
+https://www.wowhead.com/item=89682/oddly-shaped-horn
+
+https://www.wowhead.com/item=153123/cracked-radinax-control-gem
+
 ##
 A working 9.1.5 macro to leave an instance if you are alone.
 
