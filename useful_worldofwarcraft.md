@@ -1,4 +1,12 @@
 ##
+
+useful items
+
+https://www.wowhead.com/item=152550/sea-mist-potion
+
+https://www.wowhead.com/item=132516/gunshoes
+
+##
 A working 9.1.5 macro to leave an instance if you are alone.
 
 /inv 1
