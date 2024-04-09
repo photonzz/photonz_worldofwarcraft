@@ -1,3 +1,9 @@
+## frames 
+
+/script PlayerFrame:SetAlpha(0.0)
+
+/script TargetFrame:SetAlpha(0.0
+
 ##
 
 useful items
