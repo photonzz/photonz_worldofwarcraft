@@ -6,4 +6,4 @@
 | v          | Consecration  |            |      |             |
 | f          | Dispel        |            |      |             |
 | r          | Blessing of Protection |   |      |             |
-| g          | Avenging Wrath |   |      |             |
+| shift+tilde          | Avenging Wrath |   |      |             |
