@@ -1,3 +1,8 @@
+
+## click popup
+
+/click StaticPopup1Button1
+
 ## frames 
 
 /script PlayerFrame:SetAlpha(0.0)
