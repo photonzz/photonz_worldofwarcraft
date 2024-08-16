@@ -50,3 +50,12 @@ The minimum scale of nameplates
 /run SetCVar("nameplateMinScale", 1)
 ```
 
+Colors raid frames with the class color
+```
+/run SetCVar("raidFramesDisplayClassColor", 1)
+```
+
+WorldTextScale
+```
+/run SetCVar("WorldTextScale", 2.5)
+```
