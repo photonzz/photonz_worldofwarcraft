@@ -1,13 +1,23 @@
-https://warcraft.wiki.gg/wiki/Console_variables
+Hi, I've been compiling a list of [console variables](https://warcraft.wiki.gg/wiki/Console_variables) which I like to adjust on a fresh install.
 
-Disable bloom/glow
+full screen glow effect
 ```
 /console ffxglow 0
 ```
 
-Increase maximum zoom distance
+Increase maximum zoom distance, max 2.6 in retail
 ```
 /console cameraDistanceMaxZoomFactor 4
+```
+
+Adjusts when the horizon start, will increase fps by lowering value
+```
+/run SetCVar("horizonStart", 400)
+```
+
+View distance of the environment
+```
+/run SetCVar("farclip", 400)
 ```
 
 Enable sharpening 
@@ -59,3 +69,5 @@ WorldTextScale
 ```
 /run SetCVar("WorldTextScale", 2.5)
 ```
+
+
