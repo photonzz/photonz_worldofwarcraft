@@ -1,4 +1,8 @@
 
+## dragonriding skills
+
+/run DragonridingPanelSkillsButtonMixin:OnClick()
+
 ## click popup
 
 /click StaticPopup1Button1
