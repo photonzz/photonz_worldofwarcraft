@@ -1,3 +1,6 @@
+## pvp queue
+
+/run PVPQueueFrameCategoryButton2:SetEnabled(true)
 
 ## dragonriding skills
 
