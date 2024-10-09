@@ -74,3 +74,6 @@ Colors raid frames with the class color
 WorldTextScale
 
 /run SetCVar("WorldTextScale", 2.5)
+
+
+/console ShowClassColorInFriendlyNameplate 1
