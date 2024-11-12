@@ -1,3 +1,7 @@
+## healing numbers
+
+/console floatingCombatTextCombatHealing 1
+
 ## pvp queue
 
 /run PVPQueueFrameCategoryButton2:SetEnabled(true)
