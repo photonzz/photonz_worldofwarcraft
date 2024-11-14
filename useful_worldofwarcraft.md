@@ -1,3 +1,7 @@
+## combat text locations
+
+/run COMBAT_TEXT_LOCATIONS = {startX = 0,startY = 450 * COMBAT_TEXT_Y_SCALE,endX =0,endY = 650 * COMBAT_TEXT_Y_SCALE};
+
 ## healing numbers
 
 /console floatingCombatTextCombatHealing 1
