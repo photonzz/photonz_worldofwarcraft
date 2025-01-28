@@ -1,3 +1,5 @@
+```
+
 HIDE GRYPHONS (STANDARD BARS)
 
 /run MainMenuBarLeftEndCap:Hide(); MainMenuBarRightEndCap:Hide()
@@ -123,3 +125,4 @@ https://wago.io/JFDpzVq-7
 
 XP Gain from Dungeon kills + Party exp tracking (they need the WA)
 https://wago.io/L9Az0ln0E/3
+```
