@@ -1,10 +1,15 @@
 ```
+/console cameraDistanceMaxZoomFactor 4
 
 /console maxfps 999
 
-HIDE GRYPHONS (STANDARD BARS)
-
 /run MainMenuBarLeftEndCap:Hide(); MainMenuBarRightEndCap:Hide()
+
+/run MinimapCluster:Hide();
+
+/dump GetCVar("SpellQueueWindow")
+
+/console SpellQueueWindow 135
 
 
 --- MACROS -----
