@@ -1,5 +1,7 @@
 ```
 
+/console maxfps 999
+
 HIDE GRYPHONS (STANDARD BARS)
 
 /run MainMenuBarLeftEndCap:Hide(); MainMenuBarRightEndCap:Hide()
