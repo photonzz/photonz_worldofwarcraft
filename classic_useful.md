@@ -11,6 +11,8 @@
 
 /console SpellQueueWindow 135
 
+/console nameplateMaxDistance 41
+
 
 --- MACROS -----
 #showtooltip Auto Shot
