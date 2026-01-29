@@ -16,3 +16,11 @@
 
 /run SaveBindings(2)
 ```
+
+### Set bindings
+
+```
+/run for i=1,10 do SetBinding("SHIFT-"..i%10,"MULTIACTIONBAR1BUTTON"..i) end SetBinding("SHIFT-+","MULTIACTIONBAR1BUTTON11") SetBinding("SHIFT-\\","MULTIACTIONBAR1BUTTON12")
+
+/run SaveBindings(2)
+```
